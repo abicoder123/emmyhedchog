@@ -10,10 +10,11 @@ document.addEventListener("keydown", function (a) {
   }
 
   if (a.key === "ArrowUp") {
-    hedchog.style.top = hedchog.offsetTop - 10 + "px";
+    hedchog.style.top = hedchog.offsetTop + 10 + "px";
   }
 
   if (a.key === "ArrowDown") {
-    hedchog.style.top = hedchog.offsetBottom + 10 + "px";
+    hedchog.style.top = hedchog.offsetTop - 10 + "px";
+    // hedchog.style.top = hedchog.offsetBottom + 10 + "px";
   }
 });
