@@ -2,7 +2,7 @@ body{
   margin: 0;
   height: 100vh;
   overflow: hidden;
-  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOSFf7WJHJDntfzvEJEeB5AKg2-I8nfHUB9Q&s")
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOSFf7WJHJDntfzvEJEeB5AKg2-I8nfHUB9Q&s");
   background-size: cover;
   background-position: center;
 }
